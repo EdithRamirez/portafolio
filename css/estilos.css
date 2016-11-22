@@ -1,0 +1,126 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+}
+/*fondo de principal*/
+section#parallax {
+	position: fixed; /*posicion de la ventana no se mueva*/
+	width: 100%;
+	height: 100%; /*toda la ventana*/
+	top: 0px;
+	left: 0px;
+	z-index: -1; /*crea una capa para que las secciones se vean*/
+	background-image: url('../img/bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+/*color y tamaño de secciones*/
+section#sobreMi{
+	width: 100%;
+	background-color: rgba(3, 64, 61, 0.16);
+}
+section#skills{
+	width: 100%;
+	background-color: rgba(41, 6, 47, 0.48);
+}
+section#proyectos{
+	width: 100%;
+	background-color: rgba(34, 2, 58, 0.12);
+}
+section#contacto{
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.49);
+}
+footer#derechos{
+	width: 100%;  
+	background-color: #000;
+}
+/*texto de mi nombre*/
+h1{
+	font-family: 'Dancing Script', cursive;
+	color: #210423;
+	font-weight: 900;
+}
+/*texto de titulos*/
+h2{
+	font-family: 'Droid Serif', serif;
+	font-size: 3em;
+	font-weight: 700;
+}
+/*color texto rosa*/
+.text-rosa{
+	color: #d23768;
+}
+/*color texto verde claro*/
+.text-verde{
+	color: #7AA63F;
+}
+/*color de texto azul*/
+.text-azul{
+	color: #235a70;
+}
+/*texto de sobre mi*/
+.texto{
+	font-size: 1.8em;
+}
+/*efectos de div de info de proyectos*/
+/*cambiar efectos de mi hover de mis proyectos*/
+.divFondo{
+	width: 93.5%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	padding: 10%;
+}
+.divFondo h3{
+	font-size: 2em;
+}
+.divFondo p{
+	font-size: 1em;
+	color: #fff;
+}
+.divFondo:hover{
+	opacity: 1;
+	transition-duration: 1s;
+}
+/*color morado de fondo en div de proyectos*/
+.bg-fondo{
+	background-color: rgba(8, 8, 8,.6);
+}
+/*boton de proyectos*/
+.btn-menta{
+	display: block;
+	margin-top: 2%; 
+	width: 60%;
+	color: #fff;
+	background-color: #074a34;
+}
+.btn-menta:hover{
+	background-color: #61465F;
+	
+	color: #fff;
+}
+/*estilos de las barras de progreso*/
+.progress {
+	height: 35px;
+}
+.progress-bar-success{
+	background-color: #E91E63;
+}
+.progress .skill {
+	line-height: 35px;
+	padding: 0;
+	margin: 0 0 0 20px;
+	text-transform: uppercase;
+}
+.progress .skill .val {
+	float: right;
+	font-style: normal;
+	margin: 0 20px 0 0;
+}
+.progress-bar {
+	text-align: left;
+	transition-duration: 3s;
+}
