@@ -124,3 +124,11 @@ h2{
 	text-align: left;
 	transition-duration: 3s;
 }
+span.fa{
+	color: #fff;
+}
+span.fa:hover{
+	border-radius: 20%;
+	background-color: #7FC7AF;
+	padding: 5%;
+}
