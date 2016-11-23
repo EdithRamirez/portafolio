@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+	
 	var height = $(window).height();
 	ajustesIniciales();
 	
@@ -20,7 +21,7 @@ $(document).ready(function() {
 			});
 		}
 	});
-
+	//efecto de mi nombre
 	$(".intro").flipping_text({
 		tickerTime: 40, // Define la rapidez con la que se escribe, el tiempo es en milisegundos
 		customRandomChar: false, //Cadena de caracteres que se escribe en forma aleatoria: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
@@ -29,21 +30,24 @@ $(document).ready(function() {
 		resetOnChange: false //Funcion de reserva cuando se desea que el texto detenga la animacion
 	});	
 
-	$('.progress .progress-bar').css("width", function() {
-		return $(this).attr("aria-valuenow") + "%";
-	});
 	//efectos de menu
 	$('.navicon').on('click', function(e) {
 		e.preventDefault();
 		$(this).toggleClass('navicon--active');
 		$('.toggle').toggleClass('toggle--active');
 	});
-	/*cierra el menu al darle un clic al enlace GM+200 */
+
+	//cierra el menu al darle un clic al enlace GM+200
 	$('.menu').on('click' , function(){
 		$(".navicon.navicon--active").trigger("click")	
 	});
 
-
+	//skills
+	$('.skillbar').each(function(){
+		$(this).find('.skillbar-bar').animate({
+			width:$(this).attr('data-percent')
+		},2000);
+	});
 });
 
 
