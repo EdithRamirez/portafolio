@@ -37,11 +37,11 @@ $(document).ready(function() {
 		e.preventDefault();
 		$(this).toggleClass('navicon--active');
 		$('.toggle').toggleClass('toggle--active');
-
 	});
-	// 	$('.menu').on('click', function() {
-	// 	$('.toggle').hide();
-	// }); no funciona como yo quiero
+	/*cierra el menu al darle un clic al enlace GM+200 */
+	$('.menu').on('click' , function(){
+		$(".navicon.navicon--active").trigger("click")	
+	});
 
 
 });
