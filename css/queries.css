@@ -13,9 +13,9 @@
 	#miFoto{
 		max-width: 60%;
 	}
-	/*texto de sobre mi*/
-	/*.texto{
-		font-size: 1.8em;
+	/*icono de menu*/
+	.navicon{
+		margin-top: 2%;
 	}
 */
 }
@@ -35,6 +35,10 @@
 	#miFoto{
 		max-width: 30%;
 	}
+	/*icono de menu*/
+	.navicon{
+		margin-top: 10%;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -53,6 +57,10 @@
 	#miFoto{
 		max-width: 40%;
 	}
+	/*icono de menu*/
+	.navicon{
+		margin-top: 10%;
+	}
 }
 
 /* Extra Small Devices, Phones */ 
@@ -70,24 +78,8 @@
 	#miFoto{
 		max-width: 50%;
 	}
-	
-}
-
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1224px) {
-}
-
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 678px) and (max-width : 1024px) {
-
-}
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 481px) and (max-width : 677px) {
-
-}
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-
+	/*icono de menu*/
+	.navicon{
+		margin-top: 10%;
+	}
 }

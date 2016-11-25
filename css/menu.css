@@ -23,13 +23,12 @@
 }
 
 .toggle-menu li{
-/*	display: block;
-	margin: 3% auto;*/
+	display: block;
+	margin-top: 5%;
 }
 
 .toggle-menu li a{
 	display: block;
-	padding: 4% 0;
 	text-decoration: none;
 	color: #751A54;
 	text-align: center;
@@ -55,7 +54,6 @@
 
 .navicon{
 	background: transparent;
-	margin-top: 2%;
 	position: fixed;
 	height: 38px;
 	width: 48px;
@@ -65,7 +63,7 @@
 }
 
 .navicon:before, .navicon:after{
-	background: #d23768; /*color de las lineas del menu*/
+	background: #bc2360; /*color de las lineas del menu*/
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	content: "";
@@ -77,7 +75,7 @@
 }
 
 .navicon:before{
-	box-shadow: #d23768 0 14px 0 0;
+	box-shadow: #bc2360 0 14px 0 0;
 	position: absolute;
 	top: 0;
 }

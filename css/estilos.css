@@ -26,7 +26,7 @@ section#skills{
 }
 section#proyectos{
 	width: 100%;
-	background-color: rgba(34, 2, 58, 0.12);
+	background-color: rgba(62, 80, 88, 0.16);
 }
 section#contacto{
 	width: 100%;
@@ -87,19 +87,19 @@ h2{
 }
 /*color morado de fondo en div de proyectos*/
 .bg-fondo{
-	background-color: rgba(8, 8, 8,.6);
+	background-color: rgba(8, 8, 8,.8);
 }
 /*boton de proyectos*/
 .btn-menta{
 	display: block;
-	margin-top: 2%; 
+	margin-top: 8%; 
 	width: 60%;
 	color: #fff;
-	background-color: #074a34;
+	border: 1px solid #fff;
+	background-color: transparent;
 }
 .btn-menta:hover{
-	background-color: #61465F;
-	
+	background-color: #074a34;
 	color: #fff;
 }
 /*estilos de las barras de progreso*/

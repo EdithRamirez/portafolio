@@ -13,11 +13,11 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:700,700i" rel="stylesheet"><!--enlace de fuentes-->
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"><!--iconografía-->
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"><!--bootstrap-->
-		<link rel="stylesheet" type="text/css" href="css/queries.css"><!--media queries-->
 		<link rel="stylesheet" type="text/css" href="css/utilities.css"><!--mis estilos-->
 		<link rel="stylesheet" type="text/css" href="css/skills.css"><!--estilos de skills-->				
 		<link rel="stylesheet" type="text/css" href="css/menu.css"><!--mis estilos-->				
-		<link rel="stylesheet" type="text/css" href="css/estilos.css"><!--mis estilos-->
+		<link rel="stylesheet" type="text/css" href="css/estilos.css"><!--mis estilos-->		
+		<link rel="stylesheet" type="text/css" href="css/queries.css"><!--media queries-->
 	</head>
 	<body>
 		<header id="home"><!--inicio de encabezado-->
@@ -32,7 +32,7 @@
 			</nav><!--fin de menu-->
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<a href="#" class="navicon"></a>
 					</div>
 				</div>
@@ -41,22 +41,22 @@
 		<section id="parallax"><!--inicio seccion de mi nombre-->
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12 col-sm-12 col-xs-12 text-center"><!--mi nombre-->
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"><!--mi nombre-->
 						<h1 class="intro">Edith</h1>
 						<h1 class="intro" data-delay="3000">Shirley</h1><!--cambiar el tiempo, pasarlo a jquery-->
 					</div>
 				</div>
 			</div>
 		</section><!--fin seccion de mi nombre-->
-		<section id="sobreMi"><!--inicio seccion sobre mi-->
-			<div class="container-fluid pd-10">
+		<section id="sobreMi" class=" pd-10"><!--inicio seccion sobre mi-->
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-6 col-sm-12 col-xs-12 text-center mgt-5"><!--mi foto-->
-						<img class="img-circle" id="miFoto" src="img/edith.jpg" alt="Foto de Edith Shirley">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center mgt-10"><!--mi foto-->
+						<img class="img-circle mg-10" id="miFoto" src="img/edith.jpg" alt="Foto de Edith Shirley">
 					</div>
-					<div class="col-md-6 col-sm-12 col-xs-12 text-center"><!--sobre mi-->
-						<h2 class="text-rosa mgb-5">Sobre mí</h2><!--titulo de sobre mi-->
-						<p class="texto">Soy Front-End Web Developer egresada de Laboratoria México, siendo un complemento con mi Licenciatura en Sistemas Computacionales.</p>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center"><!--sobre mi-->
+						<h2 class="text-rosa mg-5 pd-5">Sobre mí</h2><!--titulo de sobre mi-->
+						<p class="texto mg-5">Soy Front-End Web Developer egresada de Laboratoria México, siendo un complemento con mi Licenciatura en Sistemas Computacionales.</p>
 						<p class="texto">Para mí la tecnología es un medio que nos brinda muchas oportunidades de crecimiento, innovación y desarrollo, tanto de manera profesional como personal.</p>
 					</div>
 				</div>
@@ -65,143 +65,63 @@
 		<section id="skills"><!--inicio seccion habilidades-->
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-12 col-sm-12 col-xs-12 text-center pt-5"><!--titulo de habilidades-->
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mgt-5"><!--titulo de habilidades-->
 						<h2 class="text-verde">Habilidades</h2>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6 col-sm-12 col-xs-12 text-center pd-5">
-						<div class="row">
-							<div class="col-md-12 col-sm-12 col-xs-12 text-center mgt-5">
-								<div class="skillbar clearfix" data-percent="60%">
-									<div class="skillbar-title titulo">
-										<span>HTML5</span>
-									</div>
-									<div class="skillbar-bar nivel"></div>
-									<div class="skill-bar-percent">
-										<strong>Intermedio</strong>
-									</div>
-								</div>
-							</div>
+					<div class="col-lg-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center pt-5 pb-10">
+						<div class="skillbar clearfix" data-percent="60%">
+							<div class="skillbar-title"><span>HTML5</span></div>
+							<div class="skillbar-bar"></div>
+							<div class="skill-bar-percent"><strong>Intermedio</strong></div>
 						</div>
-						<div class="row">
-							<div class="col-md-12 col-sm-12 col-xs-12 text-center mgt-5">
-								<div class="skillbar clearfix" data-percent="60%">
-									<div class="skillbar-title titulo">
-										<span>CSS3</span>
-									</div>
-									<div class="skillbar-bar nivel"></div>
-									<div class="skill-bar-percent">
-										<strong>Intermedio</strong>
-									</div>
-								</div>
-							</div>
+						<div class="skillbar clearfix" data-percent="60%">
+							<div class="skillbar-title"><span>CSS3</span></div>
+							<div class="skillbar-bar"></div>
+							<div class="skill-bar-percent"><strong>Intermedio</strong></div>
 						</div>
-						<div class="row">
-							<div class="col-md-12 col-sm-12 col-xs-12 text-center mgt-5">
-								<div class="skillbar clearfix" data-percent="40%">
-									<div class="skillbar-title titulo">
-										<span>Javascript</span>
-									</div>
-									<div class="skillbar-bar nivel"></div>
-									<div class="skill-bar-percent">
-										<strong>Básico</strong>
-									</div>
-								</div>
-							</div>
+						<div class="skillbar clearfix" data-percent="40%">
+							<div class="skillbar-title"><span>Javascript</span></div>
+							<div class="skillbar-bar"></div>
+							<div class="skill-bar-percent"><strong>Básico</strong></div>
 						</div>
-						<div class="row">
-							<div class="col-md-12 col-sm-12 col-xs-12 text-center mgt-5">
-								<div class="skillbar clearfix" data-percent="40%">
-									<div class="skillbar-title titulo">
-										<span>Jquery</span>
-									</div>
-									<div class="skillbar-bar nivel"></div>
-									<div class="skill-bar-percent">
-										<strong>Básico</strong>
-									</div>
-								</div>
-							</div>
+						<div class="skillbar clearfix" data-percent="40%">
+							<div class="skillbar-title"><span>Jquery</span></div>
+							<div class="skillbar-bar"></div>
+							<div class="skill-bar-percent"><strong>Básico</strong></div>
 						</div>
-						<div class="row">
-							<div class="col-md-12 col-sm-12 col-xs-12 text-center mgt-5">
-								<div class="skillbar clearfix" data-percent="40%">
-									<div class="skillbar-title titulo">
-										<span>Bootstrap</span>
-									</div>
-									<div class="skillbar-bar nivel"></div>
-									<div class="skill-bar-percent">
-										<strong>Básico</strong>
-									</div>
-								</div>
-							</div>
+						<div class="skillbar clearfix" data-percent="40%">
+							<div class="skillbar-title"><span>Bootstrap</span></div>
+							<div class="skillbar-bar"></div>
+							<div class="skill-bar-percent"><strong>Básico</strong></div>
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-xs-12 text-center pd-5">
-						<div class="row">
-							<div class="col-md-12 col-sm-6 col-xs-12 text-center mgt-5">
-								<div class="skillbar clearfix" data-percent="40%">
-									<div class="skillbar-title titulo">
-										<span>PHP</span>
-									</div>
-									<div class="skillbar-bar nivel"></div>
-									<div class="skill-bar-percent">
-										<strong>Básico</strong>
-									</div>
-								</div>
-							</div>
+					<div class="col-lg-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center pt-5 pb-10">
+						<div class="skillbar clearfix" data-percent="40%">
+							<div class="skillbar-title"><span>PHP</span></div>
+							<div class="skillbar-bar"></div>
+							<div class="skill-bar-percent"><strong>Básico</strong></div>
 						</div>
-						<div class="row">
-							<div class="col-md-12 col-sm-6 col-xs-12 text-center mgt-5">
-								<div class="skillbar clearfix" data-percent="40%">
-									<div class="skillbar-title titulo">
-										<span>SQL</span>
-									</div>
-									<div class="skillbar-bar nivel"></div>
-									<div class="skill-bar-percent">
-										<strong>Básico</strong>
-									</div>
-								</div>
-							</div>
+						<div class="skillbar clearfix" data-percent="40%">
+							<div class="skillbar-title"><span>SQL</span></div>
+							<div class="skillbar-bar"></div>
+							<div class="skill-bar-percent"><strong>Básico</strong></div>
 						</div>
-						<div class="row">
-							<div class="col-md-12 col-sm-6 col-xs-12 text-center mgt-5">
-								<div class="skillbar clearfix" data-percent="40%">
-									<div class="skillbar-title titulo">
-										<span>Github</span>
-									</div>
-									<div class="skillbar-bar nivel"></div>
-									<div class="skill-bar-percent">
-										<strong>Básico</strong>
-									</div>
-								</div>
-							</div>
+						<div class="skillbar clearfix" data-percent="40%">
+							<div class="skillbar-title"><span>Github</span></div>
+							<div class="skillbar-bar"></div>
+							<div class="skill-bar-percent"><strong>Básico</strong></div>
 						</div>
-						<div class="row">
-							<div class="col-md-12 col-sm-6 col-xs-12 text-center mgt-5">
-								<div class="skillbar clearfix" data-percent="40%">
-									<div class="skillbar-title titulo">
-										<span>Photoshop</span>
-									</div>
-									<div class="skillbar-bar nivel"></div>
-									<div class="skill-bar-percent">
-										<strong>Básico</strong>
-									</div>
-								</div>
-							</div>
+						<div class="skillbar clearfix" data-percent="40%">
+							<div class="skillbar-title"><span>Photoshop</span></div>
+							<div class="skillbar-bar"></div>
+							<div class="skill-bar-percent"><strong>Básico</strong></div>
 						</div>
-						<div class="row">
-							<div class="col-md-12 col-sm-6 col-xs-12 text-center mgt-5">
-								<div class="skillbar clearfix" data-percent="40%">
-									<div class="skillbar-title titulo">
-										<span>Trello</span>
-									</div>
-									<div class="skillbar-bar nivel"></div>
-									<div class="skill-bar-percent">
-										<strong>Básico</strong>
-									</div>
-								</div>
-							</div>
+						<div class="skillbar clearfix" data-percent="40%">
+							<div class="skillbar-title"><span>Trello</span></div>
+							<div class="skillbar-bar"></div>
+							<div class="skill-bar-percent"><strong>Básico</strong></div>
 						</div>
 					</div>
 				</div>
@@ -210,12 +130,12 @@
 		<section id="proyectos"><!--inicio seccion proyectos-->
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-12 col-sm-12 col-xs-12 text-center pd-5"><!--titulo de proyectos-->
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center pd-5"><!--titulo de proyectos-->
 						<h2 class="text-rosa">Proyectos</h2>
 					</div>
 				</div>
-				<div class="row mgb-5">
-					<div class="col-md-4 col-sm-4 col-xs-12 mgt-5"><!--primer proyecto-->	
+				<div class="row pb-10">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><!--primer proyecto-->	
 						<img class="img-responsive" src="img/proyectos/TechTheme.png" alt="Proyecto Tech Theme">
 						<div class="divFondo bg-fondo text-center">
 							<h3>Primes</h3>
@@ -224,7 +144,7 @@
 							<a href="https://github.com/EdithRamirez/21_TechTheme/" target="_blank" class="btn btn-menta center-block" role="button">Ver en Github</a>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-4 col-xs-12 mgt-5"><!--segundo proyecto-->
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><!--segundo proyecto-->
 						<img class="img-responsive" src="img/proyectos/Coder.png" alt="Proyecto Portafolio Coder">			
 						<div class="divFondo bg-fondo text-center">
 							<h3>Portafolio Coder</h3>
@@ -233,7 +153,7 @@
 							<a href="https://github.com/EdithRamirez/28_Coder/" target="_blank" class="btn btn-menta center-block" role="button">Ver en Github</a>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-4 col-xs-12 mgt-5"><!--tercer proyecto-->
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><!--tercer proyecto-->
 						<img class="img-responsive" src="img/proyectos/KaneTheme.png" alt="Proyecto Kane Theme">
 						<div class="divFondo bg-fondo text-center">
 							<h3>Kane Theme</h3>
@@ -246,26 +166,26 @@
 			</div>
 		</section><!--fin seccion proyectos-->
 		<section id="contacto"><!--inicio seccion contacto-->
-			<div class="container-fluid pd-10">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-12 col-sm-12 col-xs-12 text-center mgb-10"><!--titulo contacto-->
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"><!--titulo contacto-->
 						<h2 class="text-verde">Contacto</h2>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-3 col-sm-3 col-xs-12 text-center"><!--github-->
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center pd-5"><!--github-->
 						<a href="https://github.com/EdithRamirez" target="_blank" aria-label="Icono para ir a facebook"><span class="fa fa-github-square fa-4x" aria-hidden="true"></span></a>
 						<p>EdithRamirez</p>
 					</div>
-					<div class="col-md-3 col-sm-3 col-xs-12 text-center"><!--linkedin-->
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center pd-5"><!--linkedin-->
 						<a href="https://mx.linkedin.com/in/edithramirez07" target="_blank" aria-label="Icono para ir a linkedin"><span class="fa fa-linkedin-square fa-4x"></span></a>
 						<p>edithramirez07</p>
 					</div>
-					<div class="col-md-3 col-sm-3 col-xs-12 text-center"><!--correo-->
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center pd-5"><!--correo-->
 						<span class="fa fa-envelope fa-4x"></span>
 						<p>ediths.ramirez07@gmail.com</p>
 					</div>
-					<div class="col-md-3 col-sm-3 col-xs-12 text-center"><!--telefono-->
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center pd-5"><!--telefono-->
 						<span class="fa fa-phone fa-4x"></span>
 						<p>5513935898</p>
 					</div>
@@ -275,8 +195,8 @@
 		<footer id="derechos"><!--inicio de pie de pagina-->
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-12 col-sm-12 col-xs-12"><!--github-->
-						<p class="pt-2 text-right">Diseñado y desarrollado por Edith Shirley | Laboratoria 2016</p>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><!--github-->
+						<p class="text-right">Diseñado y desarrollado por Edith Shirley | Laboratoria 2016</p>
 					</div>
 				</div>
 			</div>
