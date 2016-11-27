@@ -50,7 +50,7 @@ display:inline-block;
 text-transform:uppercase;
 color:#fff;
 border:1px solid #fff;
-background-color:transparent;
+background-color:rgba(0,0,0,0.6);
 opacity:0;
 filter:alpha(opacity=0);
 -webkit-transition:all .2s ease-in-out;
@@ -60,7 +60,7 @@ padding:7px 14px;
 }
 
 .hovereffect a.info:hover {
-background:rgba(7,74,52,.6);
+background:rgb(142,178,86);
 box-shadow:0 0 5px #fff;
 }
 

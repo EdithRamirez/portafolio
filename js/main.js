@@ -13,17 +13,22 @@ $(document).ready(function() {
 		var	scrollTop = $(this).scrollTop();
 		console.log(scrollTop);
 		var pixeles = scrollTop / 70;
-		var contacto = $("#contacto")
+		//efecto blur de bg de fondo
 		if(scrollTop < height) {
 			$('#parallax').css({
 				'-webkit-filter': 'blur(' + pixeles + 'px)',
 				'background-position': 'center -' + pixeles * 10 + 'px'
 			});
 		}
-		if(scrollTop > 2506) {
-			$('.enlace').addClass('animated fadeInLeft');
-		}
-		
+		//efecto skills
+		if(scrollTop > 1250) {
+			//skills
+			$('.skillbar').each(function(){
+				$(this).find('.skillbar-bar').animate({
+					width:$(this).attr('data-percent')
+				},2000);
+			});
+		}	
 	});
 	//efecto de mi nombre
 	$(".intro").flipping_text({
@@ -32,7 +37,7 @@ $(document).ready(function() {
 		tickerCount: 10, //Controla cuantas veces se sustituyen los caracteres hasta visualizar el texto
 		opacityEffect: true, //Añade un efecto al aparecer
 		resetOnChange: false //Funcion de reserva cuando se desea que el texto detenga la animacion
-	});	
+	});
 
 	//efectos de menu
 	$('.navicon').on('click', function(e) {
@@ -41,18 +46,28 @@ $(document).ready(function() {
 		$('.toggle').toggleClass('toggle--active');
 	});
 
+	
 	//cierra el menu al darle un clic al enlace GM+200
 	$('.menu').on('click' , function(){
 		$(".navicon.navicon--active").trigger("click")	
 	});
-
-	//skills
-	$('.skillbar').each(function(){
-		$(this).find('.skillbar-bar').animate({
-			width:$(this).attr('data-percent')
-		},2000);
-	});
-
+	
+	//wow para efectos en seccion proyecto
+	var wow = new WOW(
+		{
+			boxClass:     'wow',      // animated element css class (default is wow)
+			animateClass: 'animated', // animation css class (default is animated)
+			offset:       0,          // distance to the element when triggering the animation (default is 0)
+			mobile:       true,       // trigger animations on mobile devices (default is true)
+			live:         true,       // act on asynchronously loaded content (default is true)
+			callback:     function(box) {
+			// the callback is fired every time an animation is started
+			// the argument that is passed in is the DOM node being animated
+			},
+			scrollContainer: null // optional scroll container selector, otherwise use window
+		}
+	);
+	wow.init();
 });
 
 
