@@ -8,14 +8,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<title>Edith Shirley</title>
 		<link rel="icon" href="img/favicon.ico" type="image/ico">
-		<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet"><!--enlace de fuentes-->
-		<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Roboto" rel="stylesheet"><!--enlace de fuentes-->
-		<link href="https://fonts.googleapis.com/css?family=Roboto:700,700i" rel="stylesheet"><!--enlace de fuentes-->
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"><!--iconografía-->
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"><!--bootstrap-->
 		<link rel="stylesheet" type="text/css" href="css/utilities.css"><!--mis estilos-->
 		<link rel="stylesheet" type="text/css" href="css/skills.css"><!--estilos de skills-->				
-		<link rel="stylesheet" type="text/css" href="css/menu.css"><!--mis estilos-->				
+		<link rel="stylesheet" type="text/css" href="css/menu.css"><!--estilos menu-->
+		<link rel="stylesheet" type="text/css" href="css/animate.css"><!--estilos hover-->		
+		<link rel="stylesheet" type="text/css" href="css/hover.css"><!--estilos hover-->		
 		<link rel="stylesheet" type="text/css" href="css/estilos.css"><!--mis estilos-->		
 		<link rel="stylesheet" type="text/css" href="css/queries.css"><!--media queries-->
 	</head>
@@ -63,14 +62,14 @@
 			</div>
 		</section><!--fin seccion sobre mi-->
 		<section id="skills"><!--inicio seccion habilidades-->
-			<div class="container-fluid">
+			<div class="container-fluid pd-5">
 				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mgt-5"><!--titulo de habilidades-->
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"><!--titulo de habilidades-->
 						<h2 class="text-verde">Habilidades</h2>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center pt-5 pb-10">
+					<div class="col-lg-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center pt-10 pb-10">
 						<div class="skillbar clearfix" data-percent="60%">
 							<div class="skillbar-title"><span>HTML5</span></div>
 							<div class="skillbar-bar"></div>
@@ -97,7 +96,7 @@
 							<div class="skill-bar-percent"><strong>Básico</strong></div>
 						</div>
 					</div>
-					<div class="col-lg-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center pt-5 pb-10">
+					<div class="col-lg-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center pt-10 pb-10">
 						<div class="skillbar clearfix" data-percent="40%">
 							<div class="skillbar-title"><span>PHP</span></div>
 							<div class="skillbar-bar"></div>
@@ -128,64 +127,89 @@
 			</div>
 		</section><!--fin seccion habilidades-->
 		<section id="proyectos"><!--inicio seccion proyectos-->
-			<div class="container-fluid">
+			<div class="container-fluid pd-5">
 				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center pd-5"><!--titulo de proyectos-->
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center pd-2"><!--titulo de proyectos-->
 						<h2 class="text-rosa">Proyectos</h2>
 					</div>
 				</div>
-				<div class="row pb-10">
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><!--primer proyecto-->	
-						<img class="img-responsive" src="img/proyectos/TechTheme.png" alt="Proyecto Tech Theme">
-						<div class="divFondo bg-fondo text-center">
-							<h3>Primes</h3>
-							<p>Proyecto colaborativo</p>
-							<a href="https://edithramirez.github.io/21_TechTheme/" target="_blank" class="btn btn-menta center-block" role="button">Ver Sitio</a>
-							<a href="https://github.com/EdithRamirez/21_TechTheme/" target="_blank" class="btn btn-menta center-block" role="button">Ver en Github</a>
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mgt-5"><!--primer proyecto-->
+						<div class="hovereffect">
+							<img class="img-responsive" src="img/proyectos/TechTheme.png" alt="Proyecto Tech Theme">
+							<div class="overlay">
+								<h3>Primes</h3>
+								<a class="info" href="https://edithramirez.github.io/21_TechTheme/" target="_blank">Ver Sitio</a>
+								<a class="info" href="https://github.com/EdithRamirez/21_TechTheme/" target="_blank">Ver en Github</a>
+							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><!--segundo proyecto-->
-						<img class="img-responsive" src="img/proyectos/Coder.png" alt="Proyecto Portafolio Coder">			
-						<div class="divFondo bg-fondo text-center">
-							<h3>Portafolio Coder</h3>
-							<p>Aprendiendo Bootstrap</p>
-							<a href="https://edithramirez.github.io/28_Coder/" target="_blank" class="btn btn-menta center-block" role="button">Ver Sitio</a>
-							<a href="https://github.com/EdithRamirez/28_Coder/" target="_blank" class="btn btn-menta center-block" role="button">Ver en Github</a>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mgt-5"><!--segundo proyecto-->
+						<div class="hovereffect">
+							<img class="img-responsive" src="img/proyectos/Coder.png" alt="Proyecto Portafolio Coder">
+							<div class="overlay">
+								<h3>Portafolio Coder</h3>
+								<a class="info" href="https://edithramirez.github.io/26_Coder/" target="_blank">Ver Sitio</a>
+								<a class="info" href="https://github.com/EdithRamirez/26_Coder/" target="_blank">Ver en Github</a>
+							</div>
+						</div>	
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mgt-5"><!--tercer proyecto-->
+						<div class="hovereffect">
+							<img class="img-responsive" src="img/proyectos/KaneTheme.png" alt="Proyecto Kane Theme">
+							<div class="overlay">
+								<h3>Kane Theme</h3>	
+								<a class="info" href=" https://edithramirez.github.io/34_KaneTheme/" target="_blank">Ver Sitio</a>
+								<a class="info" href="https://github.com/EdithRamirez/34_KaneTheme/" target="_blank">Ver en Github</a>
+							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><!--tercer proyecto-->
-						<img class="img-responsive" src="img/proyectos/KaneTheme.png" alt="Proyecto Kane Theme">
-						<div class="divFondo bg-fondo text-center">
-							<h3>Kane Theme</h3>
-							<p>Evaluación con Bootstrap</p>
-							<a href=" https://edithramirez.github.io/34_KaneTheme/" target="_blank" class="btn btn-menta center-block" role="button">Ver Sitio</a>
-							<a href="https://github.com/EdithRamirez/34_KaneTheme/" target="_blank" class="btn btn-menta center-block" role="button">Ver en Github</a>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-12 col-xs-12 mgt-5"><!--cuarto proyecto-->	
+						<div class="hovereffect">
+							<img class="img-responsive" src="img/proyectos/Ecomunidad.png" alt="Proyecto Ecomunidad">
+							<div class="overlay">
+								<h3>Ecomunidad</h3>
+								<a class="info" href="https://edithramirez.github.io/18_ComunidadSostenible/" target="_blank">Ver Sitio</a>
+								<a class="info" href="https://github.com/EdithRamirez/18_ComunidadSostenible/" target="_blank">Ver en Github</a>
+							</div>
 						</div>
 					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mgt-5"><!--quinto proyecto-->	
+						<div class="hovereffect">
+							<img class="img-responsive" src="img/proyectos/Flatness.png" alt="Proyecto Flatness">
+							<div class="overlay">
+								<h3>Flatness</h3>
+								<a class="info" href="https://edithramirez.github.io/26_Sprint1/" target="_blank">Ver Sitio</a>
+								<a class="info" href="https://github.com/EdithRamirez/26_Sprint1/" target="_blank">Ver en Github</a>
+							</div>
+						</div>
+					</div>	
 				</div>
 			</div>
 		</section><!--fin seccion proyectos-->
 		<section id="contacto"><!--inicio seccion contacto-->
-			<div class="container-fluid">
+			<div class="container-fluid pd-5">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"><!--titulo contacto-->
 						<h2 class="text-verde">Contacto</h2>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center pd-5"><!--github-->
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center enlace pd-5"><!--github-->
 						<a href="https://github.com/EdithRamirez" target="_blank" aria-label="Icono para ir a facebook"><span class="fa fa-github-square fa-4x" aria-hidden="true"></span></a>
 						<p>EdithRamirez</p>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center pd-5"><!--linkedin-->
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center enlace pd-5"><!--linkedin-->
 						<a href="https://mx.linkedin.com/in/edithramirez07" target="_blank" aria-label="Icono para ir a linkedin"><span class="fa fa-linkedin-square fa-4x"></span></a>
 						<p>edithramirez07</p>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center pd-5"><!--correo-->
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center enlace pd-5"><!--correo-->
 						<span class="fa fa-envelope fa-4x"></span>
 						<p>ediths.ramirez07@gmail.com</p>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center pd-5"><!--telefono-->
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center enlace pd-5"><!--telefono-->
 						<span class="fa fa-phone fa-4x"></span>
 						<p>5513935898</p>
 					</div>
@@ -196,7 +220,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><!--github-->
-						<p class="text-right">Diseñado y desarrollado por Edith Shirley | Laboratoria 2016</p>
+						<p class="text-right pd-2">Diseñado y desarrollado por Edith Shirley | Laboratoria 2016</p>
 					</div>
 				</div>
 			</div>

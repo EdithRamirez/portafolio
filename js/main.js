@@ -13,13 +13,17 @@ $(document).ready(function() {
 		var	scrollTop = $(this).scrollTop();
 		console.log(scrollTop);
 		var pixeles = scrollTop / 70;
-
+		var contacto = $("#contacto")
 		if(scrollTop < height) {
 			$('#parallax').css({
 				'-webkit-filter': 'blur(' + pixeles + 'px)',
 				'background-position': 'center -' + pixeles * 10 + 'px'
 			});
 		}
+		if(scrollTop > 2506) {
+			$('.enlace').addClass('animated fadeInLeft');
+		}
+		
 	});
 	//efecto de mi nombre
 	$(".intro").flipping_text({
@@ -48,6 +52,7 @@ $(document).ready(function() {
 			width:$(this).attr('data-percent')
 		},2000);
 	});
+
 });
 
 

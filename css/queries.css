@@ -1,9 +1,23 @@
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1024px) {
+@media (min-width: 1200px) {
+	h1{
+	/*border: 1px solid yellow;*/
+		font-size: 14em;
+	}
+	/*margin top del primer h1*/
+	h1:first-child{
+		margin-top: 10%;
+	}
+	/*mi foto*/
+	#miFoto{
+		max-width: 60%;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
 	/*encabezado de mi nombre*/
 	h1{
-/*		border: 1px solid red;
-*/		font-size: 14em;
+		/*border: 1px solid red;*/
+		font-size: 14em;
 	}
 	/*margin top del primer h1*/
 	h1:first-child{
@@ -17,15 +31,14 @@
 	.navicon{
 		margin-top: 2%;
 	}
-*/
 }
 
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 768px) and (max-width: 979px) {
+
+@media (min-width: 768px) and (max-width: 991px) {
 	/*encabezado de mi nombre*/	
 	h1{
-/*		border: 1px solid blue;
-*/		font-size: 12em;
+		/*border: 1px solid blue;*/
+		font-size: 12em;
 	}
 	/*margin top del primer h1*/
 	h1:first-child{
@@ -41,12 +54,12 @@
 	}
 }
 
-/* Small Devices, Tablets */
-@media only screen and (max-width : 767px) {
+
+@media (max-width: 767px) {
 	/*encabezado de mi nombre*/
 	h1{
-/*		border: 1px solid pink;
-*/		/*margin-top: 30%; */
+		/*border: 1px solid pink;*/
+		/*margin-top: 30%; */
 		font-size: 10em;
 	}
 	/*margin top del primer h1*/
@@ -63,12 +76,12 @@
 	}
 }
 
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
+
+@media (max-width: 480px) {
 	/*encabezado de mi nombre*/
 	h1{
-/*		border: 1px solid green;
-*/		font-size: 8em;
+		/*border: 1px solid green;*/
+		font-size: 8em;
 	}
 	/*margin top del primer h1*/
 	h1:first-child{
@@ -83,3 +96,4 @@
 		margin-top: 10%;
 	}
 }
+/*http://shapebootstrap.net/demo/html/corlate/*/
