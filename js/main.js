@@ -3,7 +3,10 @@ $(document).ready(function() {
 	
 	var height = $(window).height();
 	ajustesIniciales();
-	
+
+	//posicion de seccion skills
+	var posicionSkills = $("#skills").position().top;
+
 	function ajustesIniciales() {
 		$('section#sobreMi').css({'margin-top': height - 0 + 'px'});
 	}
@@ -20,7 +23,17 @@ $(document).ready(function() {
 				'background-position': 'center -' + pixeles * 10 + 'px'
 			});
 		}
+		//efecto de las barras
+		if (scrollTop > posicionSkills) {
+			//skills
+			$('.skillbar').each(function(){
+				$(this).find('.skillbar-bar').animate({
+					width:$(this).attr('data-percent')
+				},2000);
+			});
+		}
 	});
+
 	//efecto de mi nombre
 	$(".intro").flipping_text({
 		tickerTime: 40, // Define la rapidez con la que se escribe, el tiempo es en milisegundos
@@ -35,12 +48,6 @@ $(document).ready(function() {
 		e.preventDefault();
 		$(this).toggleClass('navicon--active');
 		$('.toggle').toggleClass('toggle--active');
-	});
-	//skills
-	$('.skillbar').each(function(){
-		$(this).find('.skillbar-bar').animate({
-			width:$(this).attr('data-percent')
-		},2000);
 	});
 	
 	//cierra el menu al darle un clic al enlace GM+200
