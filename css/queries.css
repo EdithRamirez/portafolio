@@ -58,7 +58,7 @@
 	}
 }
 
-@media (max-width: 767px) and (orientation: landscape){
+@media (max-width: 767px) {
 	/*encabezado de mi nombre*/
 	h1{
 		/*border: 1px solid pink;*/
