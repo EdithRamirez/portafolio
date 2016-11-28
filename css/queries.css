@@ -105,4 +105,15 @@
 		margin-top: 8%;
 	}
 }
+
+@media (max-width: 375px) {
+	/*encabezado de mi nombre*/
+/
+	.toggle-menu li{
+		margin-top: 40px;
+	}
+	.toggle-menu li a{
+		font-size: 25px;
+	}
+}
 /*http://shapebootstrap.net/demo/html/corlate/*/

@@ -20,15 +20,6 @@ $(document).ready(function() {
 				'background-position': 'center -' + pixeles * 10 + 'px'
 			});
 		}
-		//efecto skills
-		if(scrollTop > 1250) {
-			//skills
-			$('.skillbar').each(function(){
-				$(this).find('.skillbar-bar').animate({
-					width:$(this).attr('data-percent')
-				},2000);
-			});
-		}	
 	});
 	//efecto de mi nombre
 	$(".intro").flipping_text({
@@ -45,7 +36,12 @@ $(document).ready(function() {
 		$(this).toggleClass('navicon--active');
 		$('.toggle').toggleClass('toggle--active');
 	});
-
+	//skills
+	$('.skillbar').each(function(){
+		$(this).find('.skillbar-bar').animate({
+			width:$(this).attr('data-percent')
+		},2000);
+	});
 	
 	//cierra el menu al darle un clic al enlace GM+200
 	$('.menu').on('click' , function(){
