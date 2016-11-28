@@ -58,7 +58,7 @@
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) and (orientation: landscape){
 	/*encabezado de mi nombre*/
 	h1{
 		/*border: 1px solid pink;*/
@@ -106,14 +106,4 @@
 	}
 }
 
-@media (max-width: 375px) {
-	/*encabezado de mi nombre*/
-/
-	.toggle-menu li{
-		margin-top: 40px;
-	}
-	.toggle-menu li a{
-		font-size: 25px;
-	}
-}
 /*http://shapebootstrap.net/demo/html/corlate/*/
