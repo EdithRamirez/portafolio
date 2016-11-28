@@ -42,6 +42,10 @@ h1{
 	color: #210423;
 	font-weight: 900;
 }
+/*margin top del primer h1*/
+h1:first-child{
+	margin-top: 10%;
+}
 /*texto de titulos*/
 h2{
 	font-family: 'Poppins', sans-serif;
@@ -111,12 +115,7 @@ h2{
 	text-align: left;
 	transition-duration: 3s;
 }
+/*color de los span de enlace*/
 span.fa{
 	color: #fff;
-}
-span.fa:hover{
-	color: #00856a;
-	border-radius: 50%;
-	background-color: #fff;
-	padding: 5%;
 }

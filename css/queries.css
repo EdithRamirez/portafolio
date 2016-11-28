@@ -1,15 +1,17 @@
 @media (min-width: 1200px) {
 	h1{
-	/*border: 1px solid yellow;*/
-		font-size: 14em;
-	}
-	/*margin top del primer h1*/
-	h1:first-child{
-		margin-top: 10%;
+		/*border: 1px solid yellow;*/
+		font-size: 16em;
 	}
 	/*mi foto*/
 	#miFoto{
 		max-width: 60%;
+	}
+	span.fa:hover{
+		color: #00856a;
+		border-radius: 50%;
+		background-color: #fff;
+		padding: 5%;
 	}
 }
 
@@ -19,20 +21,24 @@
 		/*border: 1px solid red;*/
 		font-size: 14em;
 	}
-	/*margin top del primer h1*/
-	h1:first-child{
-		margin-top: 5%;
-	}
 	/*mi foto*/
 	#miFoto{
 		max-width: 60%;
+		margin-top: 5%;
 	}
-	/*icono de menu*/
-	.navicon{
-		margin-top: 2%;
+	.toggle-menu li{
+		margin-top: 65px;
+	}
+	.toggle-menu li a{
+		font-size: 30px;
+	}
+	span.fa:hover{
+		color: #00856a;
+		border-radius: 50%;
+		background-color: #fff;
+		padding: 8% 10%;
 	}
 }
-
 
 @media (min-width: 768px) and (max-width: 991px) {
 	/*encabezado de mi nombre*/	
@@ -40,27 +46,23 @@
 		/*border: 1px solid blue;*/
 		font-size: 12em;
 	}
-	/*margin top del primer h1*/
-	h1:first-child{
-		margin-top: 10%;
-	}
 	/*mi foto*/
 	#miFoto{
 		max-width: 30%;
 	}
-	/*icono de menu*/
-	.navicon{
-		margin-top: 10%;
+	.toggle-menu li{
+		margin-top: 70px;
+	}
+	.toggle-menu li a{
+		font-size: 35px;
 	}
 }
-
 
 @media (max-width: 767px) {
 	/*encabezado de mi nombre*/
 	h1{
 		/*border: 1px solid pink;*/
-		/*margin-top: 30%; */
-		font-size: 10em;
+		font-size: 11em;
 	}
 	/*margin top del primer h1*/
 	h1:first-child{
@@ -70,12 +72,16 @@
 	#miFoto{
 		max-width: 40%;
 	}
-	/*icono de menu*/
+	.toggle-menu li{
+		margin-top: 35px;
+	}
+	.toggle-menu li a{
+		font-size: 25px;
+	}
 	.navicon{
-		margin-top: 10%;
+		margin-top: 6%;
 	}
 }
-
 
 @media (max-width: 480px) {
 	/*encabezado de mi nombre*/
@@ -91,13 +97,12 @@
 	#miFoto{
 		max-width: 50%;
 	}
-	/*icono de menu*/
-	.navicon{
-		margin-top: 10%;
-	}
 	/*texto sobre mi*/
 	.texto{
 		font-size: 1.4em;
+	}
+	.navicon{
+		margin-top: 8%;
 	}
 }
 /*http://shapebootstrap.net/demo/html/corlate/*/
