@@ -82,7 +82,11 @@
 		margin-top: 6%;
 	}
 }
-
+@media only screen and (max-height: 480px){
+	.toggle-menu li{
+		margin-top: 25px;
+	}
+}
 @media (max-width: 480px) {
 	/*encabezado de mi nombre*/
 	h1{
