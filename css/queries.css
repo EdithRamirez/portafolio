@@ -27,19 +27,16 @@
 		margin-top: 25%;
 	}
 	.toggle-menu li{
-		margin-top: 7%;
+		margin-top: 65px;
 	}
 	.toggle-menu li a{
-		font-size: 2.5em;
+		font-size: 30px;
 	}
 	span.fa:hover{
 		color: #00856a;
 		border-radius: 50%;
 		background-color: #fff;
 		padding: 8% 10%;
-	}
-	.navicon{
-		margin-top: 5%;
 	}
 }
 
@@ -49,22 +46,15 @@
 		/*border: 1px solid blue;*/
 		font-size: 12em;
 	}
-	/*margin top del primer h1*/
-	h1:first-child{
-		margin-top: 20%;
-	}
 	/*mi foto*/
 	#miFoto{
 		max-width: 30%;
 	}
 	.toggle-menu li{
-		margin-top: 8%;
+		margin-top: 70px;
 	}
 	.toggle-menu li a{
-		font-size: 2.8em;
-	}
-	.navicon{
-		margin-top: 5%;
+		font-size: 35px;
 	}
 }
 
@@ -76,26 +66,26 @@
 	}
 	/*margin top del primer h1*/
 	h1:first-child{
-		margin-top: 25%;
+		margin-top: 15%;
 	}
 	/*mi foto*/
 	#miFoto{
 		max-width: 40%;
 	}
 	.toggle-menu li{
-		margin-top: 10%;
+		margin-top: 35px;
 	}
 	.toggle-menu li a{
-		font-size: 2.2em;
+		font-size: 25px;
 	}
 	.navicon{
-		margin-top: 8%;
+		margin-top: 6%;
 	}
 }
 /*landscape de movil*/
 @media only screen and (max-height: 480px){
 	.toggle-menu li{
-		margin-top: 6%;
+		margin-top: 25px;
 	}
 }
 
@@ -108,12 +98,6 @@
 	/*margin top del primer h1*/
 	h1:first-child{
 		margin-top: 40%;
-	}
-	.toggle-menu li{
-		margin-top: 12%;
-	}
-	.toggle-menu li a{
-		font-size: 2em;
 	}
 	/*mi foto*/
 	#miFoto{
