@@ -76,7 +76,7 @@
 	}
 	/*margin top del primer h1*/
 	h1:first-child{
-		margin-top: 25%;
+		margin-top: 22%;
 	}
 	/*mi foto*/
 	#miFoto{
@@ -110,7 +110,7 @@
 	}
 	/*margin top del primer h1*/
 	h1:first-child{
-		margin-top: 40%;
+		margin-top: 30%;
 	}
 	.toggle-menu li{
 		margin-top: 12%;
