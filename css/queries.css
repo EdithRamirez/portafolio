@@ -64,6 +64,9 @@
 	.toggle-menu li a{
 		font-size: 35px;
 	}
+	.navicon{
+		margin-top: 5%;
+	}
 }
 
 @media (max-width: 767px) {
@@ -74,7 +77,7 @@
 	}
 	/*margin top del primer h1*/
 	h1:first-child{
-		margin-top: 15%;
+		margin-top: 20%;
 	}
 	/*mi foto*/
 	#miFoto{
