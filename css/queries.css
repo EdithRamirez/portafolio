@@ -43,25 +43,25 @@
 @media (min-width: 768px) and (max-width: 991px) {
 	/*encabezado de mi nombre*/	
 	h1{
-		border: 1px solid blue;
+		/*border: 1px solid blue;*/
 		font-size: 12em;
 	}
 	/*mi foto*/
 	#miFoto{
-		max-width: 35%;
+		max-width: 30%;
 	}
 	.toggle-menu li{
 		margin-top: 70px;
 	}
 	.toggle-menu li a{
-		font-size: 40px;
+		font-size: 35px;
 	}
 }
 
 @media (max-width: 767px) {
 	/*encabezado de mi nombre*/
 	h1{
-		/*border: 1px solid pink;*/
+		border: 1px solid pink;
 		font-size: 11em;
 	}
 	/*margin top del primer h1*/
@@ -73,10 +73,10 @@
 		max-width: 40%;
 	}
 	.toggle-menu li{
-		margin-top: 35px;
+		margin-top: 40px;
 	}
 	.toggle-menu li a{
-		font-size: 25px;
+		font-size: 30px;
 	}
 	.navicon{
 		margin-top: 6%;
