@@ -21,6 +21,10 @@
 		/*border: 1px solid red;*/
 		font-size: 14em;
 	}
+	/*margin top del primer h1*/
+	h1:first-child{
+		margin-top: 20%;
+	}
 	/*mi foto*/
 	#miFoto{
 		max-width: 60%;
@@ -46,12 +50,16 @@
 		/*border: 1px solid blue;*/
 		font-size: 12em;
 	}
+	/*margin top del primer h1*/
+	h1:first-child{
+		margin-top: 25%;
+	}
 	/*mi foto*/
 	#miFoto{
 		max-width: 30%;
 	}
 	.toggle-menu li{
-		margin-top: 70px;
+		margin-top: 120px;
 	}
 	.toggle-menu li a{
 		font-size: 35px;
@@ -61,7 +69,7 @@
 @media (max-width: 767px) {
 	/*encabezado de mi nombre*/
 	h1{
-		border: 1px solid pink;
+		/*border: 1px solid pink;*/
 		font-size: 11em;
 	}
 	/*margin top del primer h1*/
@@ -73,10 +81,10 @@
 		max-width: 40%;
 	}
 	.toggle-menu li{
-		margin-top: 40px;
+		margin-top: 35px;
 	}
 	.toggle-menu li a{
-		font-size: 30px;
+		font-size: 25px;
 	}
 	.navicon{
 		margin-top: 6%;
