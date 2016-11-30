@@ -43,18 +43,18 @@
 @media (min-width: 768px) and (max-width: 991px) {
 	/*encabezado de mi nombre*/	
 	h1{
-		/*border: 1px solid blue;*/
+		border: 1px solid blue;
 		font-size: 12em;
 	}
 	/*mi foto*/
 	#miFoto{
-		max-width: 30%;
+		max-width: 35%;
 	}
 	.toggle-menu li{
 		margin-top: 70px;
 	}
 	.toggle-menu li a{
-		font-size: 35px;
+		font-size: 40px;
 	}
 }
 
