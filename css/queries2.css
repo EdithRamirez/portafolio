@@ -58,7 +58,7 @@
 		max-width: 30%;
 	}
 	.toggle-menu li{
-		margin-top: 8%;
+		margin-top: 6%;
 	}
 	.toggle-menu li a{
 		font-size: 2.8em;
@@ -95,7 +95,7 @@
 /*landscape de movil*/
 @media only screen and (max-height: 480px){
 	.toggle-menu li{
-		margin-top: 4%;
+		margin-top: 2%;
 	}
 }
 
