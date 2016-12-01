@@ -14,6 +14,7 @@ section#parallax {
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
+	background-color: #8db500;
 }
 /*color y tamaño de secciones*/
 section#sobreMi{
