@@ -13,7 +13,7 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 	/*encabezado de mi nombre*/
 	h1{
-		/*border: 1px solid red;*/
+		border: 1px solid red;
 		font-size: 14em;
 	}
 	/*mi foto*/
@@ -23,10 +23,10 @@
 	}
 	/*menu*/
 	.toggle-menu li{
-		margin-top: 60px;
+		margin-top: 6%;
 	}
 	.toggle-menu li a{
-		font-size: 30px;
+		font-size: 2em;
 	}
 	.enlace:hover{
 		color: #00856a;
