@@ -1,12 +1,11 @@
 body{
 	font-family: 'Raleway', sans-serif;
-	color: #FFF;
 }
 /*fondo de principal*/
 section#parallax {
 	position: fixed; /*posicion de la ventana no se mueva*/
 	width: 100%;
-	height: 100vh; /*toda la ventana*/
+	height: 100%; /*toda la ventana*/
 	top: 0px;
 	left: 0px;
 	z-index: -1; /*crea una capa para que las secciones se vean*/
@@ -14,7 +13,7 @@ section#parallax {
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
-	background-color: #8db500;
+	background-color: rgba(141,181,0,.8);
 }
 /*color y tamaño de secciones*/
 section#sobreMi{
@@ -65,30 +64,13 @@ h2{
 .text-azul{
 	color: #235a70;
 }
+/*color blanco*/
+body, .text-blanco{
+	color: #fff;
+}
 /*texto de sobre mi*/
 .texto{
 	font-size: 1.8em;
-}
-/*efectos de div de info de proyectos*/
-/*cambiar efectos de mi hover de mis proyectos*/
-.divFondo{
-	width: 93.5%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	opacity: 0;
-	padding: 10%;
-}
-.divFondo h3{
-	font-size: 2em;
-}
-.divFondo p{
-	font-size: 1em;
-	color: #fff;
-}
-.divFondo:hover{
-	opacity: 1;
-	transition-duration: 1s;
 }
 /*color morado de fondo en div de proyectos*/
 .bg-fondo{
@@ -116,10 +98,7 @@ h2{
 	text-align: left;
 	transition-duration: 3s;
 }
-/*color de los span de enlace*/
-span.fa{
-	color: #fff;
-}
+
 /*scroll*/
 ::-webkit-scrollbar {
 	width: 15px;

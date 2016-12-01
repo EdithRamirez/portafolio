@@ -1,6 +1,6 @@
 @media (min-width: 1200px) {
 	h1{
-		/*border: 1px solid yellow;*/
+		border: 1px solid yellow;
 		font-size: 16em;
 	}
 	/*mi foto*/
@@ -18,7 +18,7 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 	/*encabezado de mi nombre*/
 	h1{
-		/*border: 1px solid red;*/
+		border: 1px solid red;
 		font-size: 14em;
 	}
 	/*mi foto*/
@@ -43,7 +43,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
 	/*encabezado de mi nombre*/	
 	h1{
-		/*border: 1px solid blue;*/
+		border: 1px solid blue;
 		font-size: 12em;
 	}
 	/*mi foto*/
@@ -61,7 +61,7 @@
 @media (max-width: 767px) {
 	/*encabezado de mi nombre*/
 	h1{
-		/*border: 1px solid pink;*/
+		border: 1px solid pink;
 		font-size: 11em;
 	}
 	/*margin top del primer h1*/
@@ -81,18 +81,20 @@
 	.navicon{
 		margin-top: 6%;
 	}
+
 }
 /*landscape de movil*/
 @media only screen and (max-height: 480px){
 	.toggle-menu li{
 		margin-top: 25px;
+		border: 1px solid black;
 	}
 }
 
 @media (max-width: 480px) {
 	/*encabezado de mi nombre*/
 	h1{
-		/*border: 1px solid green;*/
+		border: 1px solid green;
 		font-size: 8em;
 	}
 	/*margin top del primer h1*/
@@ -111,7 +113,7 @@
 		margin-top: 8%;
 	}
 	.skillbar-title {
-		width: 32%;
+		width: 35%;
 	}
 }
 /*http://shapebootstrap.net/demo/html/corlate/*/
