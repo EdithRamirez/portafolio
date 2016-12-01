@@ -48,7 +48,6 @@
 	#miFoto{
 		max-width: 30%;
 	}
-
 	/*ajuste de mi titulo de skills*/
 	.skillbar-title {
 		width: 15%;
@@ -74,7 +73,7 @@
 	#miFoto{
 		max-width: 40%;
 	}
-
+	/*posicion de mis barras de menu*/
 	.navicon{
 		margin-top: 6%;
 	}
@@ -90,9 +89,9 @@
 	.toggle-menu li{
 		margin-top: 20px;
 	}
-	.toggle-menu li a{
-		font-size: 25px;
-	}
+/*	.toggle-menu li a{
+		border: 1px solid black;
+	}*/
 	/*efecto de contactos hover*/
 	.enlace:hover{
 		transform: none;
@@ -118,10 +117,6 @@
 	.texto{
 		font-size: 1.4em;
 	}
-	/*margin de mi menu*/
-	/*.toggle-menu li{
-		margin-top: 25px;
-	}*/
 	.navicon{
 		margin-top: 8%;
 	}
