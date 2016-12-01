@@ -1,19 +1,26 @@
 /*mi compu*/
 @media (min-width: 1200px) {
 	h1{
-		/*border: 1px solid yellow;*/
-		font-size: 16em;
+/*		border: 1px solid yellow;
+*/		font-size: 16em;
 	}
 	/*mi foto*/
 	#miFoto{
 		max-width: 60%;
+	}
+	/*menu*/
+	.toggle-menu li{
+		margin-top: 8%;
+	}
+	.toggle-menu li a{
+		font-size: 2.5em;
 	}
 }
 /*mi lap*/
 @media (min-width: 992px) and (max-width: 1199px) {
 	/*encabezado de mi nombre*/
 	h1{
-		border: 1px solid red;
+		/*border: 1px solid red;*/
 		font-size: 14em;
 	}
 	/*mi foto*/
