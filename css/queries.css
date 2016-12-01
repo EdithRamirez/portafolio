@@ -8,6 +8,7 @@
 	#miFoto{
 		max-width: 60%;
 	}
+	/*efecto de contactos hover*/
 	.enlace:hover{
 		color: #00856a;
 		margin-bottom: 15%;
@@ -26,11 +27,11 @@
 		max-width: 60%;
 		margin-top: 25%;
 	}
-	
 	/*ajuste de mi titulo de skills*/
 	.skillbar-title {
 		width: 25%;
 	}
+	/*efecto de contactos hover*/
 	.enlace:hover{
 		color: #00856a;
 		margin-bottom: 15%;
@@ -52,6 +53,7 @@
 	.skillbar-title {
 		width: 15%;
 	}
+	/*efecto de contactos hover*/
 	.enlace:hover{
 		color: #00856a;
 		margin-bottom: 15%;
@@ -76,18 +78,22 @@
 	.navicon{
 		margin-top: 6%;
 	}
+	/*efecto de contactos hover*/
 	.enlace:hover{
 		transition: none;
 		transform: none;
 	}
-
 }
 /*landscape de mi movil=vertical*/
 @media only screen and (max-height: 480px){
+	/*margin de mi menu*/
 	.toggle-menu li{
-		/*margin-top: 25px;*/
-		/*border: 1px solid black;*/
+		margin-top: 20px;
 	}
+	.toggle-menu li a{
+		font-size: 25px;
+	}
+	/*efecto de contactos hover*/
 	.enlace:hover{
 		transform: none;
 		transition: none;
@@ -112,6 +118,10 @@
 	.texto{
 		font-size: 1.4em;
 	}
+	/*margin de mi menu*/
+	/*.toggle-menu li{
+		margin-top: 25px;
+	}*/
 	.navicon{
 		margin-top: 8%;
 	}
@@ -119,6 +129,7 @@
 	.skillbar-title {
 		width: 35%;
 	}
+	/*efecto de contactos hover*/
 	.enlace:hover{
 		transition: none;
 		transform: none;
