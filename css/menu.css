@@ -19,15 +19,16 @@
 	-ms-transform: translateY(0);
 	transform: translateY(0);
 }
+
 .toggle-menu li{
-	margin-top: 80px;
+	margin-top: 50px;
 }
 
 .toggle-menu li a{
 	text-decoration: none;
 	color: #751A54;
 	text-align: center;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: 700;
 	text-transform: uppercase;
 	border-bottom: 2px solid transparent;

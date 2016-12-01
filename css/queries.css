@@ -8,13 +8,7 @@
 	#miFoto{
 		max-width: 60%;
 	}
-	/*menu*/
-	.toggle-menu li{
-		margin-top: 8%;
-	}
-	.toggle-menu li a{
-		font-size: 2.5em;
-	}
+
 }
 /*mi lap*/
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -28,13 +22,7 @@
 		max-width: 60%;
 		margin-top: 25%;
 	}
-	/*menu*/
-	.toggle-menu li{
-		margin-top: 6%;
-	}
-	.toggle-menu li a{
-		font-size: 2em;
-	}
+
 	.enlace:hover{
 		color: #00856a;
 		margin-bottom: 15%;
@@ -63,12 +51,7 @@
 	#miFoto{
 		max-width: 30%;
 	}
-	.toggle-menu li{
-		margin-top: 70px;
-	}
-	.toggle-menu li a{
-		font-size: 35px;
-	}
+
 	/*ajuste de mi titulo de skills*/
 	.skillbar-title {
 		width: 15%;
@@ -89,12 +72,7 @@
 	#miFoto{
 		max-width: 40%;
 	}
-	.toggle-menu li{
-		margin-top: 35px;
-	}
-	.toggle-menu li a{
-		font-size: 25px;
-	}
+
 	.navicon{
 		margin-top: 6%;
 	}
