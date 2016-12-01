@@ -1,5 +1,6 @@
 body{
 	font-family: 'Raleway', sans-serif;
+	background-color: rgba(83, 65, 99,.6);
 }
 /*fondo de principal*/
 section#parallax {
@@ -13,7 +14,6 @@ section#parallax {
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
-	background-color: rgba(141,181,0,.8);
 }
 /*color y tamaño de secciones*/
 section#sobreMi{

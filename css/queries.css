@@ -8,7 +8,6 @@
 	#miFoto{
 		max-width: 60%;
 	}
-
 }
 /*mi lap*/
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -22,8 +21,9 @@
 		max-width: 60%;
 		margin-top: 25%;
 	}
+	/*menu*/
 	.toggle-menu li{
-		margin-top: 65px;
+		margin-top: 60px;
 	}
 	.toggle-menu li a{
 		font-size: 30px;
