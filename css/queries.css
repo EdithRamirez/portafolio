@@ -1,3 +1,4 @@
+/*mi compu*/
 @media (min-width: 1200px) {
 	h1{
 		border: 1px solid yellow;
@@ -14,11 +15,11 @@
 		padding: 5%;
 	}
 }
-
+/*mi lap*/
 @media (min-width: 992px) and (max-width: 1199px) {
 	/*encabezado de mi nombre*/
 	h1{
-		border: 1px solid red;
+		/*border: 1px solid red;*/
 		font-size: 14em;
 	}
 	/*mi foto*/
@@ -39,11 +40,11 @@
 		padding: 8% 10%;
 	}
 }
-
+/*azul landscape*/
 @media (min-width: 768px) and (max-width: 991px) {
 	/*encabezado de mi nombre*/	
 	h1{
-		border: 1px solid blue;
+		/*border: 1px solid blue;*/
 		font-size: 12em;
 	}
 	/*mi foto*/
@@ -57,11 +58,11 @@
 		font-size: 35px;
 	}
 }
-
+/*mi movil en vertical, tablet*/
 @media (max-width: 767px) {
 	/*encabezado de mi nombre*/
 	h1{
-		border: 1px solid pink;
+		/*border: 1px solid pink;*/
 		font-size: 11em;
 	}
 	/*margin top del primer h1*/
@@ -83,18 +84,18 @@
 	}
 
 }
-/*landscape de movil*/
+/*landscape de mi movil=vertical*/
 @media only screen and (max-height: 480px){
 	.toggle-menu li{
 		margin-top: 25px;
-		border: 1px solid black;
+		/*border: 1px solid black;*/
 	}
 }
-
+/*mi cel*/
 @media (max-width: 480px) {
 	/*encabezado de mi nombre*/
 	h1{
-		border: 1px solid green;
+		/*border: 1px solid green;*/
 		font-size: 8em;
 	}
 	/*margin top del primer h1*/
