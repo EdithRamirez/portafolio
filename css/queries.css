@@ -8,6 +8,10 @@
 	#miFoto{
 		max-width: 60%;
 	}
+	.enlace:hover{
+		color: #00856a;
+		margin-bottom: 15%;
+	}
 
 }
 /*mi lap*/
@@ -22,22 +26,14 @@
 		max-width: 60%;
 		margin-top: 25%;
 	}
-
-	.enlace:hover{
-		color: #00856a;
-		margin-bottom: 15%;
-		-webkit-transition: all 200ms ease-in;
-		-webkit-transform: scale(2);
-		-ms-transition: all 200ms ease-in;
-		-ms-transform: scale(2);   
-		-moz-transition: all 200ms ease-in;
-		-moz-transform: scale(2);
-		transition: all 200ms ease-in;
-		transform: scale(2);
-	}
+	
 	/*ajuste de mi titulo de skills*/
 	.skillbar-title {
 		width: 25%;
+	}
+	.enlace:hover{
+		color: #00856a;
+		margin-bottom: 15%;
 	}
 }
 /*azul landscape*/
@@ -55,6 +51,10 @@
 	/*ajuste de mi titulo de skills*/
 	.skillbar-title {
 		width: 15%;
+	}
+	.enlace:hover{
+		color: #00856a;
+		margin-bottom: 15%;
 	}
 }
 /*mi movil en vertical, tablet*/
@@ -76,13 +76,21 @@
 	.navicon{
 		margin-top: 6%;
 	}
+	.enlace:hover{
+		transition: none;
+		transform: none;
+	}
 
 }
 /*landscape de mi movil=vertical*/
 @media only screen and (max-height: 480px){
 	.toggle-menu li{
-		margin-top: 25px;
+		/*margin-top: 25px;*/
 		/*border: 1px solid black;*/
+	}
+	.enlace:hover{
+		transform: none;
+		transition: none;
 	}
 }
 /*mi cel*/
@@ -110,6 +118,10 @@
 	/*ajuste de mi titulo de skills*/
 	.skillbar-title {
 		width: 35%;
+	}
+	.enlace:hover{
+		transition: none;
+		transform: none;
 	}
 }
 /*http://shapebootstrap.net/demo/html/corlate/*/
