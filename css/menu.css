@@ -21,14 +21,14 @@
 }
 
 .toggle-menu li{
-	margin-top: 50px;
+	margin-top: 8%;
 }
 
 .toggle-menu li a{
 	text-decoration: none;
 	color: #751A54;
 	text-align: center;
-	font-size: 30px;
+	font-size: 3em;
 	font-weight: 700;
 	text-transform: uppercase;
 	border-bottom: 2px solid transparent;

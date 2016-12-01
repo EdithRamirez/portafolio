@@ -57,6 +57,14 @@
 		color: #00856a;
 		margin-bottom: 15%;
 	}
+	/*margin de mi menu
+	.toggle-menu li{
+		margin-top: 15%;
+		border: 1px solid green;
+	}
+	.toggle-menu li a{
+		font-size: 35px;
+	}*/
 }
 /*mi movil en vertical, tablet*/
 @media (max-width: 767px) {
@@ -85,12 +93,12 @@
 }
 /*landscape de mi movil=vertical*/
 @media only screen and (max-height: 480px){
-	/*margin de mi menu*/
+	/*margin de mi menu
 	.toggle-menu li{
 		margin-top: 20px;
 	}
-/*	.toggle-menu li a{
-		border: 1px solid black;
+	.toggle-menu li a{
+		font-size: 28px;
 	}*/
 	/*efecto de contactos hover*/
 	.enlace:hover{
