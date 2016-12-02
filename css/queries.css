@@ -104,7 +104,7 @@
 	}
 
 	.toggle-menu li a{
-		font-size: 1.8em;
+		font-size: 1.5em;
 	}
 }
 /*mi cel*/
@@ -124,7 +124,7 @@
 	}
 	/*texto sobre mi*/
 	.texto{
-		font-size: 1.4em;
+		font-size: 1em;
 	}
 	.navicon{
 		margin-top: 8%;
@@ -143,7 +143,7 @@
 
 	/*margin de mi menu*/
 	.toggle-menu li{
-		margin-top: 10%;
+		margin-top: 15%;
 	}
 	.toggle-menu li a{
 		font-size: 2em;
