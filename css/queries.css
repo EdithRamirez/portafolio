@@ -1,4 +1,3 @@
-/*mi compu*/
 @media (min-width: 1200px) {
 	h1{
 /*		border: 1px solid yellow;
@@ -8,16 +7,12 @@
 	#miFoto{
 		max-width: 60%;
 	}
-	/*margin de mi menu*/
-/*	.toggle-menu li{
-		margin-top: 3%;
-	}*/
+	/*margin de mi menu OK*/
 	.toggle-menu li a{
 		font-size: 2.5em;
 	}
-
 }
-/*mi lap*/
+
 @media (min-width: 992px) and (max-width: 1199px) {
 	/*encabezado de mi nombre*/
 	h1{
@@ -26,7 +21,7 @@
 	}
 	/*margin top del primer h1*/
 	h1:first-child{
-		margin-top: 8%;
+		margin-top: 5%;
 	}
 	/*mi foto*/
 	#miFoto{
@@ -45,9 +40,8 @@
 	.toggle-menu li a{
 		font-size: 2.2em;
 	}
-
 }
-/*azul landscape*/
+
 @media (min-width: 768px) and (max-width: 991px) {
 	/*encabezado de mi nombre*/	
 	h1{
@@ -67,7 +61,7 @@
 		margin-top: 5%;
 	}
 }
-/*mi movil en vertical, tablet*/
+
 @media (max-width: 767px) {
 	/*encabezado de mi nombre*/
 	h1{
@@ -90,7 +84,7 @@
 		transform: none;
 	}
 }
-/*landscape de mi movil=vertical*/
+
 @media only screen and (max-height: 480px){
 	/*efecto de contactos hover*/
 	.enlace:hover{
@@ -104,7 +98,7 @@
 		font-size: 1.5em;
 	}
 }
-/*mi cel*/
+
 @media (max-width: 480px) {
 	/*encabezado de mi nombre*/
 	h1{
