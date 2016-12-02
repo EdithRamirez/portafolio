@@ -94,19 +94,17 @@
 }
 /*landscape de mi movil=vertical*/
 @media only screen and (max-height: 480px){
-	/*margin de mi menu
-	.toggle-menu li{
-		margin-top: 20px;
-	}
-	.toggle-menu li a{
-		font-size: 28px;
-	}*/
+
 	/*efecto de contactos hover*/
 	.enlace:hover{
 		color: #fff;
 		margin-bottom: 0;
 		transition: none;
 		transform: none;;
+	}
+
+	.toggle-menu li a{
+		font-size: 1.8em;
 	}
 }
 /*mi cel*/
@@ -148,7 +146,7 @@
 		margin-top: 10%;
 	}
 	.toggle-menu li a{
-		font-size: 2.5;
+		font-size: 2em;
 	}
 }
 /*http://shapebootstrap.net/demo/html/corlate/*/
