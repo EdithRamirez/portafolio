@@ -54,7 +54,7 @@
 	}
 	/*posicion de mis barras de menu*/
 	.navicon{
-		margin-top: 6%;
+		margin-top: 5%;
 	}
 }
 /*mi movil en vertical, tablet*/
@@ -78,11 +78,6 @@
 		margin-bottom: 0;
 		transition: none;
 		transform: none;
-	}
-
-	/*margin de mi menu*/
-	.toggle-menu li{border: 1px solid pink;
-		margin-top: 10%;
 	}
 }
 /*landscape de mi movil=vertical*/
