@@ -8,14 +8,20 @@
 	#miFoto{
 		max-width: 60%;
 	}
-	
+	/*margin de mi menu*/
+/*	.toggle-menu li{
+		margin-top: 3%;
+	}*/
+	.toggle-menu li a{
+		font-size: 2.5em;
+	}
 
 }
 /*mi lap*/
 @media (min-width: 992px) and (max-width: 1199px) {
 	/*encabezado de mi nombre*/
 	h1{
-		border: 1px solid red;
+		/*border: 1px solid red;*/
 		font-size: 14em;
 	}
 	/*margin top del primer h1*/
@@ -35,8 +41,7 @@
 	.navicon{
 		margin-top: 4%;
 	}
-	
-	/*margin de mi menu*/
+	/*margin de mi menu OK*/
 	.toggle-menu li a{
 		font-size: 2.2em;
 	}
