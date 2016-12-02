@@ -21,7 +21,7 @@
 }
 
 .toggle-menu li{
-	margin-top: 8%;
+	margin-top: 5%;
 }
 
 .toggle-menu li a{
@@ -55,7 +55,7 @@
 	z-index: 2;
 	-webkit-transition: linear 0.5s all;
 	transition: linear 0.5s all;
-	margin: 3% 1%;
+	margin: 3%;
 }
 
 .navicon:before, .navicon:after{
@@ -82,7 +82,7 @@
 }
 
 .navicon--active{
-	margin-top: 20px;
+	margin-top: 3%;
 	-webkit-transition: linear 0.5s all;
 	transition: linear 0.5s all;
 }

@@ -100,14 +100,16 @@ body, .text-blanco{
 }
 /*efecto de mi hover en contacto*/
 .enlace:hover{
-	-webkit-transition: all 200ms ease-in;
+	-webkit-transition: all 500ms ease-in;
 	-webkit-transform: scale(2);
-	-ms-transition: all 200ms ease-in;
+	-ms-transition: all 500ms ease-in;
 	-ms-transform: scale(2);   
-	-moz-transition: all 200ms ease-in;
+	-moz-transition: all 500ms ease-in;
 	-moz-transform: scale(2);
-	transition: all 200ms ease-in;
+	transition: all 500ms ease-in;
 	transform: scale(2);
+	color: #00856a;
+	margin-bottom: 15%;
 }
 
 /*scroll*/
