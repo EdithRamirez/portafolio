@@ -80,10 +80,6 @@
 	#miFoto{
 		max-width: 40%;
 	}
-	/*posicion de mis barras de menu*/
-	.navicon{
-		margin-top: 5%;
-	}
 	/*efecto de contactos hover*/
 	.enlace:hover{
 		color: #fff;
@@ -94,7 +90,6 @@
 }
 /*landscape de mi movil=vertical*/
 @media only screen and (max-height: 480px){
-
 	/*efecto de contactos hover*/
 	.enlace:hover{
 		color: #fff;
@@ -102,9 +97,9 @@
 		transition: none;
 		transform: none;;
 	}
-
+	/*margin de mi menu OK*/
 	.toggle-menu li a{
-		font-size: 1.3em;
+		font-size: 1.5em;
 	}
 }
 /*mi cel*/
@@ -140,8 +135,7 @@
 		transition: none;
 		transform: none;
 	}
-
-	/*margin de mi menu*/
+	/*margin de mi menu OK*/
 	.toggle-menu li{
 		margin-top: 15%;
 	}
