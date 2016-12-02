@@ -15,7 +15,7 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 	/*encabezado de mi nombre*/
 	h1{
-		/*border: 1px solid red;*/
+		border: 1px solid red;
 		font-size: 14em;
 	}
 	/*margin top del primer h1*/
@@ -34,6 +34,11 @@
 	/*posicion de mis barras de menu*/
 	.navicon{
 		margin-top: 4%;
+	}
+	
+	/*margin de mi menu*/
+	.toggle-menu li a{
+		font-size: 2.2em;
 	}
 
 }
@@ -54,14 +59,14 @@
 	}
 	/*posicion de mis barras de menu*/
 	.navicon{
-		margin-top: 8%;
+		margin-top: 5%;
 	}
 }
 /*mi movil en vertical, tablet*/
 @media (max-width: 767px) {
 	/*encabezado de mi nombre*/
 	h1{
-		
+		/*border: 1px solid pink;*/
 		font-size: 11em;
 	}
 	/*margin top del primer h1*/
